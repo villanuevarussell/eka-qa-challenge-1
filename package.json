@@ -1,0 +1,22 @@
+{
+  "name": "eka-qa-challenge",
+  "version": "1.0.0",
+  "description": "EKA QA Challenge",
+  "main": "index.js",
+  "engines": {
+    "node": "8.1.4",
+    "npm": "6.5.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/nightwatch --config nightwatch.conf.js"
+  },
+  "author": "Joseph Yu",
+  "license": "ISC",
+  "dependencies": {
+    "babel-register": "^6.26.0"
+  },
+  "devDependencies": {
+    "nightwatch": "0.9.20",
+    "selenium-download": "2.0.7"
+  }
+}

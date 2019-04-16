@@ -1,0 +1,133 @@
+07:10:11.441 INFO - Launching a standalone Selenium Server
+07:10:11.558 INFO - Java: Oracle Corporation 25.31-b07
+07:10:11.559 INFO - OS: Mac OS X 10.10.5 x86_64
+07:10:11.592 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+07:10:11.762 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+07:10:11.764 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+07:10:11.764 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+07:10:11.765 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+07:10:11.783 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+07:10:11.784 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+07:10:11.951 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+07:10:11.952 INFO - Selenium Server is up and running
+07:10:13.381 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Navigate To Site, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+07:10:13.475 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Navigate To Site, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e) on port 14632
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+07:10:21.821 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Navigate To Site, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+07:10:21.888 INFO - Executing: [get: http://www.go-eka.com])
+07:10:28.581 INFO - Done: [get: http://www.go-eka.com]
+07:10:28.613 INFO - Executing: [find elements: By.cssSelector: .nav-logo])
+07:10:28.724 INFO - Done: [find elements: By.cssSelector: .nav-logo]
+07:10:28.737 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (ba3a3319ef6a4b6e888aa62b51df6d8e)] -> css selector: .nav-logo]])
+07:10:28.790 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (ba3a3319ef6a4b6e888aa62b51df6d8e)] -> css selector: .nav-logo]]
+07:10:28.814 INFO - Executing: [find elements: By.cssSelector: .solutions-link])
+07:10:28.878 INFO - Done: [find elements: By.cssSelector: .solutions-link]
+07:10:28.888 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (ba3a3319ef6a4b6e888aa62b51df6d8e)] -> css selector: .solutions-link]])
+07:10:28.925 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on MAC (ba3a3319ef6a4b6e888aa62b51df6d8e)] -> css selector: .solutions-link]]
+07:10:28.945 INFO - Executing: [find elements: By.cssSelector: .services-link])
+07:10:28.994 INFO - Done: [find elements: By.cssSelector: .services-link]
+07:10:29.002 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on MAC (ba3a3319ef6a4b6e888aa62b51df6d8e)] -> css selector: .services-link]])
+07:10:29.040 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on MAC (ba3a3319ef6a4b6e888aa62b51df6d8e)] -> css selector: .services-link]]
+07:10:29.095 INFO - Executing: [find elements: By.cssSelector: .company-link])
+07:10:29.121 INFO - Done: [find elements: By.cssSelector: .company-link]
+07:10:29.129 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on MAC (ba3a3319ef6a4b6e888aa62b51df6d8e)] -> css selector: .company-link]])
+07:10:29.339 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on MAC (ba3a3319ef6a4b6e888aa62b51df6d8e)] -> css selector: .company-link]]
+07:10:29.351 INFO - Executing: [find elements: By.cssSelector: .login-link])
+07:10:29.391 INFO - Done: [find elements: By.cssSelector: .login-link]
+07:10:29.403 INFO - Executing: [is displayed: 4 [[ChromeDriver: chrome on MAC (ba3a3319ef6a4b6e888aa62b51df6d8e)] -> css selector: .login-link]])
+07:10:29.437 INFO - Done: [is displayed: 4 [[ChromeDriver: chrome on MAC (ba3a3319ef6a4b6e888aa62b51df6d8e)] -> css selector: .login-link]]
+07:10:29.450 INFO - Executing: [find elements: By.cssSelector: #nav-contact-us])
+07:10:29.501 INFO - Done: [find elements: By.cssSelector: #nav-contact-us]
+07:10:29.507 INFO - Executing: [is displayed: 5 [[ChromeDriver: chrome on MAC (ba3a3319ef6a4b6e888aa62b51df6d8e)] -> css selector: #nav-contact-us]])
+07:10:29.534 INFO - Done: [is displayed: 5 [[ChromeDriver: chrome on MAC (ba3a3319ef6a4b6e888aa62b51df6d8e)] -> css selector: #nav-contact-us]]
+07:10:29.540 INFO - Executing: [find elements: By.cssSelector: #join-mailinglist_input])
+07:10:29.563 INFO - Done: [find elements: By.cssSelector: #join-mailinglist_input]
+07:10:29.570 INFO - Executing: [is displayed: 6 [[ChromeDriver: chrome on MAC (ba3a3319ef6a4b6e888aa62b51df6d8e)] -> css selector: #join-mailinglist_input]])
+07:10:29.603 INFO - Done: [is displayed: 6 [[ChromeDriver: chrome on MAC (ba3a3319ef6a4b6e888aa62b51df6d8e)] -> css selector: #join-mailinglist_input]]
+07:10:29.612 INFO - Executing: [find element: By.cssSelector: #join-mailinglist_input[name=email2]])
+07:10:29.637 INFO - Done: [find element: By.cssSelector: #join-mailinglist_input[name=email2]]
+07:10:29.644 INFO - Executing: [send keys: 6 [[ChromeDriver: chrome on MAC (ba3a3319ef6a4b6e888aa62b51df6d8e)] -> css selector: #join-mailinglist_input], [j, o, h, n, d, o, e, @, g, m, a, i, l, ., c, o, m]])
+07:10:30.492 INFO - Done: [send keys: 6 [[ChromeDriver: chrome on MAC (ba3a3319ef6a4b6e888aa62b51df6d8e)] -> css selector: #join-mailinglist_input], [j, o, h, n, d, o, e, @, g, m, a, i, l, ., c, o, m]]
+07:10:30.501 INFO - Executing: [find element: By.cssSelector: #join-mailinglist_btn])
+07:10:30.533 INFO - Done: [find element: By.cssSelector: #join-mailinglist_btn]
+07:10:30.538 INFO - Executing: [click: 7 [[ChromeDriver: chrome on MAC (ba3a3319ef6a4b6e888aa62b51df6d8e)] -> css selector: #join-mailinglist_btn]])
+07:10:30.689 INFO - Done: [click: 7 [[ChromeDriver: chrome on MAC (ba3a3319ef6a4b6e888aa62b51df6d8e)] -> css selector: #join-mailinglist_btn]]
+07:10:30.753 INFO - Executing: [find element: By.cssSelector: #myModalLabel])
+07:10:30.907 INFO - Done: [find element: By.cssSelector: #myModalLabel]
+07:10:30.915 INFO - Executing: [get text: 8 [[ChromeDriver: chrome on MAC (ba3a3319ef6a4b6e888aa62b51df6d8e)] -> css selector: #myModalLabel]])
+07:10:30.970 INFO - Done: [get text: 8 [[ChromeDriver: chrome on MAC (ba3a3319ef6a4b6e888aa62b51df6d8e)] -> css selector: #myModalLabel]]
+07:10:30.984 INFO - Executing: [find element: By.cssSelector: .close])
+07:10:31.030 INFO - Done: [find element: By.cssSelector: .close]
+07:10:31.040 INFO - Executing: [click: 9 [[ChromeDriver: chrome on MAC (ba3a3319ef6a4b6e888aa62b51df6d8e)] -> css selector: .close]])
+07:10:31.148 INFO - Done: [click: 9 [[ChromeDriver: chrome on MAC (ba3a3319ef6a4b6e888aa62b51df6d8e)] -> css selector: .close]]
+07:10:32.159 INFO - Executing: [find element: By.cssSelector: #nav-contact-us])
+07:10:32.182 INFO - Done: [find element: By.cssSelector: #nav-contact-us]
+07:10:32.188 INFO - Executing: [click: 5 [[ChromeDriver: chrome on MAC (ba3a3319ef6a4b6e888aa62b51df6d8e)] -> css selector: #nav-contact-us]])
+07:10:32.287 INFO - Done: [click: 5 [[ChromeDriver: chrome on MAC (ba3a3319ef6a4b6e888aa62b51df6d8e)] -> css selector: #nav-contact-us]]
+07:10:32.304 INFO - Executing: [find elements: By.cssSelector: #myModal])
+07:10:32.357 INFO - Done: [find elements: By.cssSelector: #myModal]
+07:10:32.369 INFO - Executing: [is displayed: 10 [[ChromeDriver: chrome on MAC (ba3a3319ef6a4b6e888aa62b51df6d8e)] -> css selector: #myModal]])
+07:10:32.417 INFO - Done: [is displayed: 10 [[ChromeDriver: chrome on MAC (ba3a3319ef6a4b6e888aa62b51df6d8e)] -> css selector: #myModal]]
+07:10:32.929 INFO - Executing: [is displayed: 10 [[ChromeDriver: chrome on MAC (ba3a3319ef6a4b6e888aa62b51df6d8e)] -> css selector: #myModal]])
+07:10:32.960 INFO - Done: [is displayed: 10 [[ChromeDriver: chrome on MAC (ba3a3319ef6a4b6e888aa62b51df6d8e)] -> css selector: #myModal]]
+07:10:32.970 INFO - Executing: [find element: By.cssSelector: #myModal])
+07:10:32.992 INFO - Done: [find element: By.cssSelector: #myModal]
+07:10:33.003 INFO - Executing: [get text: 10 [[ChromeDriver: chrome on MAC (ba3a3319ef6a4b6e888aa62b51df6d8e)] -> css selector: #myModal]])
+07:10:33.069 INFO - Done: [get text: 10 [[ChromeDriver: chrome on MAC (ba3a3319ef6a4b6e888aa62b51df6d8e)] -> css selector: #myModal]]
+07:10:33.083 INFO - Executing: [find element: By.cssSelector: .close])
+07:10:33.099 INFO - Done: [find element: By.cssSelector: .close]
+07:10:33.104 INFO - Executing: [click: 9 [[ChromeDriver: chrome on MAC (ba3a3319ef6a4b6e888aa62b51df6d8e)] -> css selector: .close]])
+07:10:37.267 WARN - Exception thrown
+org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.10.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'russell-villanuevas-macbook.local', ip: '192.168.1.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52778}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e), userDataDir=/var/folders/34/67fzyr9930l4h3_0516w0rgh0000gn/T/.org.chromium.Chromium.YI0XP3}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ba3a3319ef6a4b6e888aa62b51df6d8e
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
+	at com.sun.proxy.$Proxy2.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:348)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy3.click(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+07:10:37.271 WARN - Exception: element not interactable
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.10.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'russell-villanuevas-macbook.local', ip: '192.168.1.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_31'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52778}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e), userDataDir=/var/folders/34/67fzyr9930l4h3_0516w0rgh0000gn/T/.org.chromium.Chromium.YI0XP3}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ba3a3319ef6a4b6e888aa62b51df6d8e
+07:10:47.769 INFO - Executing: [delete session: 36e424f6-1b03-4c83-bde3-47763c2924cd])
+07:10:48.106 INFO - Done: [delete session: 36e424f6-1b03-4c83-bde3-47763c2924cd]
